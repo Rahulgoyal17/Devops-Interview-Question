@@ -1,5 +1,6 @@
 
 Linux-Interview-Question
+
 What function does DNS play on a network?
 What is HTTP?
 What is an HTTP proxy and how does it work?
@@ -8,6 +9,7 @@ What is SMTP? Give the basic scenario of how a mail message is delivered via SMT
 What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 What is a level 0 backup? What is an incremental backup?
 Describe the general file system hierarchy of a Linux system.
+
 [⬆] Simple Linux Questions:
 
 What is the name and the UID of the administrator user?
@@ -36,6 +38,8 @@ What is the difference between UNIX and Linux.
 What is the difference between Telnet and SSH?
 Explain the three load averages and what do they indicate.
 Can you name a lower-case letter that is not a valid option for GNU ls?
+
+
 [⬆] Medium Linux Questions:
 
 What do the following commands do and how would you use them? tee awk tr cut tac curl wget watch head tail
@@ -86,6 +90,8 @@ How can you limit process memory usage?
 What is bash quick substitution/caret replace(^x^y)?
 Do you know of any alternative shells? If so, have you used any?
 What is a tarpipe (or, how would you go about copying everything, including hardlinks and special files, from one server to another)?
+
+
 [⬆] Hard Linux Questions:
 
 What is a tunnel and how you can bypass a http proxy?
@@ -107,9 +113,11 @@ When trying to umount a directory it says it's busy, how to find out which PID h
 What's LD_PRELOAD and when it's used?
 You ran a binary and nothing happened. How would you debug this?
 What are cgroups? Can you specify a scenario where you could use them?
+
 [⬆] Expert Linux Questions:
 
 A running process gets EAGAIN: Resource temporarily unavailable on reading a socket. How can you close this bad socket/file descriptor without killing the process?
+
 [⬆] Networking Questions:
 
 What is localhost and why would ping localhost fail?
