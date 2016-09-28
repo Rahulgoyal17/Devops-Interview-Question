@@ -1,0 +1,31 @@
+# Devops-Interview-Question
+
+[⬆] DevOps Questions:
+
+Can you describe your workflow when you create a script?
+What is GIT?
+What is a dynamically/statically linked file?
+What does "./configure && make && make install" do?
+What is puppet/chef/ansible used for?
+What is Nagios/Zenoss/NewRelic used for?
+What is the difference between Containers and VMs?
+How do you create a new postgres user?
+What is a virtual IP address? What is a cluster?
+How do you print all strings of printable characters present in a file?
+How do you find shared library dependencies?
+What is Automake and Autoconf?
+./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
+What are the advantages/disadvantages of script vs compiled program?
+What's the relationship between continuous delivery and DevOps?
+What are the important aspects of a system of continuous integration and deployment?
+
+--My Favourite:
+
+1) Which is the default authentication method in linux? How to prioritize hostname resolve? ans: /etc/nsswitch.conf 2) The first part of the process was a coding challenge. I was asked to write a command line tool using a high level language of my choice (e.g. Python/Ruby/Perl) and keeping less than 5 non-standard library dependencies. 3) Linux boot up process. DNS and HTTP protocol internals. What is the Linux filesystem. What happens in the operation system while you are typing URL in your favourite browser and so forth.
+4) What does strace do?
+5) What is a Linux command to show if your CPU is having problems. ans: iostat,top and htop 6) Explain how traceroute works.
+7) Describe in as much detail as possible what happens when you type curl http://xe.com into your terminal.
+8) Draw on the whiteboard a high-level, abstract architecture for S3. 9) Write some code to parse an apache log file, grouping requests by /24 subnet and month and then give me the top 10 subnets from each month 10) What is a Linux command to show if your CPU is having problems.
+11) In DNS, what is an A record, CNAME, TTL, negaive TTL, SOA.
+12) different HTTP status code. 13) Write code to parse generic web logs and format it in different ways
+14) ssh connection, networking and website architecture 15) Parse a log except, providing a csv of the count of each proc per DTTM. 16) Print all statistics of every process name and its log for every minute of a piece of system log. In other word, use minute as row title, print all statistics in the corresponding minutes. 17) Different backup software define backup levels in different ways, often using the same terms in contradictory ways. Amanda’s definition of backup levels follows the traditional Unix/BSD/Linux dump utility backup levels of 0-9, with level 0 being a full backup, and each level n being a backup of changes since the last backup of level n-1 or lower.
